@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "humao.rest-client",
+    "damildrizzy.fastapi-snippets",
+    "ms-python.vscode-pylance"
+  ]
+}

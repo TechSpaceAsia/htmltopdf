@@ -1,0 +1,6 @@
+POST http://localhost:8000/generate
+content-type: application/json
+
+{
+  "html": "<html><body><h1 style=\"color: blue;\">Yello</h1><img src=\"https://picsum.photos/200/300\"></body></html>"
+}

@@ -1,0 +1,2 @@
+fastapi[all]==0.79.1
+py3-wkhtmltopdf==0.4.1
