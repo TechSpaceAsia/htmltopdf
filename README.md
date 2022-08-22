@@ -3,7 +3,7 @@ Dockerized FastAPI to transform HTML into a PDF
 Run it:
 
 ```
-docker run --rm -p 9000:8000 -t htmltopdf:1.0.1
+docker run --rm -p 9000:8000 -t techspaceasia/htmltopdf:1.0.1
 ```
 
 Try it:
