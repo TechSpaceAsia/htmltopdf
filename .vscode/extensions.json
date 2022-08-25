@@ -2,6 +2,7 @@
   "recommendations": [
     "humao.rest-client",
     "damildrizzy.fastapi-snippets",
-    "ms-python.vscode-pylance"
+    "ms-python.vscode-pylance",
+    "analytic-signal.preview-pdf"
   ]
 }

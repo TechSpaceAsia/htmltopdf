@@ -1,13 +1,18 @@
 import requests
+import fire
 from pathlib import Path
 
-content = Path('./demo.html').read_text()
-response = requests.post(
-  'http://localhost:9000/generate',
-  json={
-    "html": content
-  }
-)
+def main(input: str='./demo.html', output: str='./output.pdf'):
+  content = Path(input).read_text()
+  response = requests.post(
+    'http://localhost:9000/generate',
+    json={
+      "html": content
+    }
+  )
 
-with open('./output.pdf', 'wb') as f:
-  f.write(response.content)
+  with open(output, 'wb') as f:
+    f.write(response.content)
+
+if __name__ == '__main__':
+  fire.Fire(main)
